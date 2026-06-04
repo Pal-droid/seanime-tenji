@@ -19,8 +19,8 @@ jniLibs/
 Build the binaries from the official Seanime repository following the Android build instructions:
 
 1. Clone https://github.com/5rahim/seanime
-2. Follow the DEVELOPMENT.md guide for patching main.go and dependencies
-3. Cross-compile for Android ARM64, ARMv7, and x86_64
+2. Follow the [DEVELOPMENT.md](https://github.com/Seanime-contributions/Seanime-Android/blob/main/DEVELOPMENT.md) guide.
+3. Cross-compile for Android ARM64, ARMv7, or any other arch.
 4. Place the resulting `libseanime.so` files in the correct ABI directories above
 
 ## Integration with Seanime-Android
